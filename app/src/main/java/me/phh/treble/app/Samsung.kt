@@ -22,39 +22,33 @@ class Samsung: EntryStartup {
     val spListener = SharedPreferences.OnSharedPreferenceChangeListener { sp, key ->
         when(key) {
             SamsungSettings.highBrightess -> {
-                val value = sp.getBoolean(key, false)
+                val value = true
                 SystemProperties.set("persist.sys.samsung.full_brightness", value.toString())
             }
             SamsungSettings.gloveMode -> {
                 val value = sp.getBoolean(key, false)
-                val cmd = if(value) "glove_mode,1" else "glove_mode,0"
+                val cmd = "glove_mode,1"
                 val ret = tsCmd(cmd)
-                Log.e("PHH", "Setting glove mode to $cmd got $ret")
             }
             SamsungSettings.audioStereoMode -> {
                 val value = sp.getBoolean(key, false)
-                if(value) {
-                    AudioSystem.setParameters("Dualspk=1")
-                    AudioSystem.setParameters("SpkAmpLPowerOn=1")
-                    AudioSystem.setParameters("ProximitySensorClosed=0")
-                } else {
-                    AudioSystem.setParameters("Dualspk=0")
-                    AudioSystem.setParameters("SpkAmpLPowerOn=0")
-                }
+                AudioSystem.setParameters("Dualspk=1")
+                AudioSystem.setParameters("SpkAmpLPowerOn=1")
+                AudioSystem.setParameters("ProximitySensorClosed=0")
             }
         }
     }
 
     override fun startup(ctxt: Context) {
-        if (!SamsungSettings.enabled()) return
-
         val sp = PreferenceManager.getDefaultSharedPreferences(ctxt)
         sp.registerOnSharedPreferenceChangeListener(spListener)
 
         //Refresh parameters on boot
         spListener.onSharedPreferenceChanged(sp, SamsungSettings.highBrightess)
         spListener.onSharedPreferenceChanged(sp, SamsungSettings.gloveMode)
-        spListener.onSharedPreferenceChanged(sp, SamsungSettings.audioStereoMode)
+        AudioSystem.setParameters("SpkAmpLPowerOn=1")
+        AudioSystem.setParameters("Dualspk=1")
+        AudioSystem.setParameters("ProximitySensorClosed=0")
         Log.e("PHH", "Samsung TS: ${tsCmd("get_chip_vendor")}:${tsCmd("get_chip_name")}")
 
         Log.e("PHH", "Samsung TS: Supports glove_mode ${tsCmdExists("glove_mode")}")

@@ -24,8 +24,8 @@ object Misc: EntryStartup {
                 Settings.Global.putString(ctxt.contentResolver, "fps_divisor", value)
             }
             MiscSettings.maxAspectRatioPreO -> {
-                val value = sp.getString(key, "1.86")
-                SystemProperties.set("persist.sys.max_aspect_ratio.pre_o", value)
+                val value = sp.getString(key, "0.0")
+                SystemProperties.set("persist.sys.max_aspect_ratio.pre_o", "0.0")
                 Log.d("PHH", "Setting max aspect ratio for pre-o app $value")
             }
         }

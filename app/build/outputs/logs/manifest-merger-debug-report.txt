@@ -1,0 +1,148 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3b2b618c651bba80a71171d1bf53b028/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4bfea3f78fbf84b86c5d84b44083492d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ce78db94c6cb2fe572b6abda77bdc132/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d5d94202c422f04a7380788432b47c96/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c96b27b4769fd16000116505b86776a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/32e5f7c889467a427813f918df02aff5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/950c287a74efe1eadd5bef1faa99b0c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/33d1375d8288a9330db919922d2549c2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c298566af58484e04a246354aefae586/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/87484d9246139fce9e6a45ac6c08f6a3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/7fbaa3d1d6f59ab44e9370caf6ab3a77/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bb2942777b189c4e38197b2975cb336b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/224ac0e323ce3f17bc9059cb3b7570a2/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+	android:sharedUserId
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:5:5-46
+	android:versionName
+		INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:2:11-69
+	android:persistent
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:4:5-30
+uses-permission#android.permission.INTERACT_ACROSS_USERS
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:8:22-77
+application
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:9:5-31:19
+	android:supportsRtl
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:10:9-35
+uses-library#android.hardware.wifi.hostapd.V1_0
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:16:9-100
+	android:required
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:16:73-97
+	android:name
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:16:23-72
+uses-library#vendor.huawei.hardware.biometrics.fingerprint.V2_1
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:17:9-115
+	android:required
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:17:89-113
+	android:name
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:17:23-88
+uses-library#vendor.huawei.hardware.tp.V1_0
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:18:9-95
+	android:required
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:18:69-93
+	android:name
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:18:23-68
+uses-library#vendor.qti.hardware.radio.am.V1_0
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:19:9-98
+	android:required
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:19:72-96
+	android:name
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:19:23-71
+uses-library#vendor.qti.qcril.am.V1_0
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:20:9-89
+	android:required
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:20:63-87
+	android:name
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:20:23-62
+service#me.phh.treble.app.EntryService
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:22:9-49
+	android:name
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:22:18-46
+receiver#me.phh.treble.app.Starter
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:24:19-42
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:me.phh.update
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:26:17-79
+	android:name
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:26:25-76
+action#me.phh.update
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:27:17-56
+	android:name
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:27:25-53
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:28:17-84
+	android:name
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml:28:25-81
+uses-sdk
+INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v4:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3b2b618c651bba80a71171d1bf53b028/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3b2b618c651bba80a71171d1bf53b028/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4bfea3f78fbf84b86c5d84b44083492d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4bfea3f78fbf84b86c5d84b44083492d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ce78db94c6cb2fe572b6abda77bdc132/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ce78db94c6cb2fe572b6abda77bdc132/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d5d94202c422f04a7380788432b47c96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d5d94202c422f04a7380788432b47c96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c96b27b4769fd16000116505b86776a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c96b27b4769fd16000116505b86776a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/32e5f7c889467a427813f918df02aff5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/32e5f7c889467a427813f918df02aff5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/950c287a74efe1eadd5bef1faa99b0c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/950c287a74efe1eadd5bef1faa99b0c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/33d1375d8288a9330db919922d2549c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/33d1375d8288a9330db919922d2549c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c298566af58484e04a246354aefae586/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/codefox/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c298566af58484e04a246354aefae586/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/87484d9246139fce9e6a45ac6c08f6a3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/87484d9246139fce9e6a45ac6c08f6a3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/7fbaa3d1d6f59ab44e9370caf6ab3a77/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/7fbaa3d1d6f59ab44e9370caf6ab3a77/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bb2942777b189c4e38197b2975cb336b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bb2942777b189c4e38197b2975cb336b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/224ac0e323ce3f17bc9059cb3b7570a2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/codefox/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/224ac0e323ce3f17bc9059cb3b7570a2/AndroidManifest.xml:20:5-44
+INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+		ADDED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/codefox/treble_app/app/src/main/AndroidManifest.xml
